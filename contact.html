@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Recipes</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!-- Header Section -->
+    <div class="bg-img_1">
+      <div class="container">
+        <div class="topnav">
+          <a href="index.html" style="font-size: 30px;font-family: cursive;padding: 5px;">
+            <img src="recipe.jpg" alt="Recipe" height="30px" width="30px">
+            My Recipes
+          </a>
+          <div class="topnav-right">
+            <a href="index.html">Home</a>
+            <a href="baking.html">Baking</a>
+            <a href="healthy.html">Healthy</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+      <p style="font-size: 30px;">
+        Send Me a Message
+      </p> 
+      <hr style="width: 50%;">
+      <div class="contact">
+        <form action="thank.html" method="POST">
+          <input type="text" placeholder="Name" required>
+          <br>
+          <input type="email" placeholder="E-mail" required>
+          <br>
+          <input type="text" placeholder="Subject">
+          <br>
+          <textarea placeholder="Message"cols="50" rows="5"></textarea>
+          <br>
+          <input id="submitbtn" type="submit" value="Send Now">
+        </form>
+      </div>
+      <div class="contact">
+        <p><i class="fa fa-envelope-o" style="font-size:24px;color: green;"></i>123, Trivandrum</p>
+        <p><i class="fa fa-at" style="font-size:24px;color: green;"></i> abc@gmail.com</p>
+        <p><i class="fa fa-mobile" style="font-size:25px;color: green;"></i> 222-444-5555</p>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy;My Recipes | Created by Anu</p>
+    </footer>
+  </body>
+</html>
